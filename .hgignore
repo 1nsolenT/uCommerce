@@ -1,0 +1,12 @@
+[Bb]in
+[Dd]ebug*/
+obj/
+
+
+BaseWebSite/BaseWebSite/App_Data/TEMP/
+BaseWebSite/BaseWebSite/App_Data/Cache/
+BaseWebSite/BaseWebSite/App_Data/Logs/
+BaseWebSite/BaseWebSite/App_Data/RavenDatabases/
+BaseWebSite/BaseWebSite/App_Data/umbraco.config
+BaseWebSite/BaseWebSite/Raven/CompiledIndexCache/
+uCommerceMasterClass/src/packages/
