@@ -17,7 +17,7 @@ namespace MyUCommerceApp.Website.Controllers
 
 			Country shippingCountry = TransactionLibrary.GetShippingInformation().Country;
 
-			var availablePaymentMethods = TransactionLibrary.GetPaymentMethods(shippingCountry);
+			var availablePaymentMethods = TransactionLibrary.GetPaymentMethods(/*shippingCountry*/);
 
 			var existingPayment = basket.Payments.FirstOrDefault();
 
@@ -42,7 +42,8 @@ namespace MyUCommerceApp.Website.Controllers
 		public ActionResult Index(PaymentViewModel payment)
 		{
 			TransactionLibrary.CreatePayment(
-				paymentMethodId: payment.SelectedPaymentMethodId, 
+				//paymentMethodId: payment.SelectedPaymentMethodId, 
+				paymentMethodId: payment.SelectedPaymentMethodId < 1 ? 6 : payment.SelectedPaymentMethodId, 
 				requestPayment: false, 
 				amount: -1, 
 				overwriteExisting: true);

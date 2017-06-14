@@ -49,6 +49,12 @@ namespace MyUCommerceApp.Website.Controllers
 		[HttpPost]
 		public ActionResult Index(AddToBasketViewModel model)
 		{
+            //PurchaseOrder basket = new PurchaseOrder();
+            //uCommerce_PurchaseOrder table
+
+            //TransactionLibrary.GetBasket();
+            //TransactionLibrary.ExecuteBasketPipeline(); ;
+
             TransactionLibrary.AddToBasket(1, model.Sku, model.VariantSku);
 
 
