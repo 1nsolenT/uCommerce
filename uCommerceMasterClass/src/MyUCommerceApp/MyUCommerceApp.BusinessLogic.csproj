@@ -71,13 +71,13 @@
     <Compile Include="Queries\LatestOrderQuery.cs" />
     <Compile Include="Queries\ProductsByPropertiesQuery.cs" />
     <Compile Include="SiteContext\ExtendedCatalogContext.cs" />
+    <Compile Include="Tax\ExtendedTaxService.cs" />
     <Compile Include="WebServices\WebServiceTag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NhibernateMappings\Maps\" />
     <Folder Include="Pricing\" />
     <Folder Include="Shipping\" />
-    <Folder Include="Tax\" />
     <Folder Include="WebServices\Impl\" />
     <Folder Include="WebServices\Model\" />
   </ItemGroup>

@@ -382,6 +382,7 @@
     <Content Include="Umbraco\ucommerce\Apps\MyCatalogContext\MyCatalogContext.config" />
     <Content Include="Umbraco\ucommerce\Apps\Pipelines\ToCompleted\ToCompletedOrderPipline.config" />
     <Content Include="Umbraco\ucommerce\Apps\DataTypes\DataType.config" />
+    <Content Include="Umbraco\ucommerce\Apps\Prices\Tax.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -389,9 +390,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Umbraco\ucommerce\Apps\Prices\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
