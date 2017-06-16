@@ -380,6 +380,8 @@
     <Content Include="Bootstrap\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Bootstrap\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Umbraco\ucommerce\Apps\MyCatalogContext\MyCatalogContext.config" />
+    <Content Include="Umbraco\ucommerce\Apps\Pipelines\ToCompleted\ToCompletedOrderPipline.config" />
+    <Content Include="Umbraco\ucommerce\Apps\DataTypes\DataType.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -388,8 +390,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Umbraco\ucommerce\Apps\DataTypes\" />
-    <Folder Include="Umbraco\ucommerce\Apps\Pipelines\ToCompleted\" />
     <Folder Include="Umbraco\ucommerce\Apps\Prices\" />
   </ItemGroup>
   <PropertyGroup>
